@@ -28,7 +28,11 @@ export const Header = styled.Text``;
 
 export const LoginButton = styled.Text`
   color: ${Colors.WHITE};
-  font-size: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
   text-align: center;
 `;
 

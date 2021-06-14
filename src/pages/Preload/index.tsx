@@ -20,7 +20,7 @@ const Preload: React.FC = () => {
         <Description>{`Eleve suas \nhabilidades para o próximo nível com a`} <Highlight>Guarapagym</Highlight></Description>
       </Header>
 
-      <LoginButtonContainer 
+      <LoginButtonContainer
         onPress={() => {}}
         accessibilityLabel="Entrar"
       >
