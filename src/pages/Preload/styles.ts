@@ -3,7 +3,7 @@ import { Colors } from '../../utils/ColorsEnum';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #FCEEE5;
+  background-color: ${Colors.SALMON};
   padding: 20px 30px;
   justify-content: space-between;
 `;
