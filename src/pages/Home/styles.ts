@@ -2,7 +2,6 @@ import styled from "styled-components/native";
 import { Colors } from "../../utils/ColorsEnum";
 
 export const Container = styled.ScrollView`
-  flex: 1;
   background-color: ${Colors.WHITE};
   padding: 0 10px;
   margin: 0;
@@ -10,7 +9,7 @@ export const Container = styled.ScrollView`
 
 export const Header = styled.View`
   width: 100%;
-  height: 7%;
+  height: 60px;
 `;
 
 export const MonthContainer = styled.View`
@@ -27,13 +26,39 @@ export const MonthName = styled.Text`
   padding-left: 5px;
 `;
 
-export const ExercisesContainer = styled.View`
+export const ExercisesContainer = styled.View``;
+
+export const ExerciseHeader = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom-color: ${Colors.BLACK};
   border-bottom-width: 1px;
   padding: 12px 0;
+`;
+
+export const ExerciseBody = styled.View`
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
+export const ExerciseSetItem = styled.View``;
+export const ExerciseSetTraining = styled.Text`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: ${Colors.BROWN};
+  width: 50%;
+`;
+
+export const ExerciseVideo = styled.TouchableOpacity`
+  background-color: ${Colors.SALMON};  
+  padding: 1px 7px;
+  border-radius: 8px;
 `;
 
 export const TextItem = styled.View`
