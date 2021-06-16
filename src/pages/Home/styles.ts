@@ -9,7 +9,6 @@ export const Container = styled.ScrollView`
 
 export const Header = styled.View`
   width: 100%;
-  height: 60px;
 `;
 
 export const MonthContainer = styled.View`
