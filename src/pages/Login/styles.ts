@@ -12,6 +12,7 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   background-color: ${Colors.ORANGE};
+  justify-content: center;
   width: 100%;
   height: 30%;
 `;
