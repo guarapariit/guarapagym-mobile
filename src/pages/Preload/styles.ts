@@ -9,7 +9,7 @@ export const Container = styled.View`
 `;
 
 export const Description = styled.Text`
-  margin: 64px 0 24px 0;
+  padding-top: 120px;
 
   font-family: Roboto;
   font-style: normal;
@@ -24,7 +24,10 @@ export const Highlight = styled.Text`
   color: ${Colors.ORANGE};
 `;
 
-export const Header = styled.Text``;
+export const Header = styled.Text`
+  display: flex;
+  flex-direction: column;  
+`;
 
 export const LoginButton = styled.Text`
   color: ${Colors.WHITE};
